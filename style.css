@@ -1,0 +1,73 @@
+body {
+	border: 1px solid black;
+	margin: auto;
+	width: 960px;
+}
+
+/*HEADER*/
+	header {
+		margin-top: 20px;
+	}
+
+	#header-main {
+		border: 1px solid black;
+		width: 55%;
+		float: left;
+		margin-left: 35px;
+	}
+
+	#header-name {
+		text-align: center;
+		color: orange;
+		font-size: 60px;
+		line-height: 0px;
+	}
+
+	#header-info {
+		text-align: center;
+	}
+
+	#header-contact {
+		border: 1px solid black;
+		width: 35%;
+		float: right;
+		margin-right: 35px;
+		line-height: 0px;
+	}
+
+	.contact-img {
+		height: 20px;
+		width: 20px;
+	}
+
+
+
+
+#profile, #experience, #skills, #projects, #education, #achievements {
+	border: 1px solid black;
+	margin: 35px;
+}
+
+#profile {
+	clear: both;
+}
+
+#experience {
+
+}
+
+#skills {
+	
+}
+
+#projects {
+	
+}
+
+#education {
+	
+}
+
+#achievements {
+	margin-bottom: 20px;
+}
