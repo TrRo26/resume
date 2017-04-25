@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Travis Roy [Resumé]</title>
+	<title>Travis Roy [Resume]</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 	<header>
 		<div id="header-main">
-			<h1>Travis A. Roy</h1>
-			<h3>Web Developer</h3>
-			<h3>Chicago, Illinois</h3>
+			<h1 id="header-name">Travis A. Roy</h1>
+			<h3 id="header-info">Web Developer | Chicago, Illinois</h3>
 		</div>
 		<div id="header-contact">
+			<img class="contact-img" src="images/phone.png">
 			<h4>312-925-9185</h4>
+			<img class="contact-img" src="images/email.png">
 			<h4>travis.roy26@gmail.com</h4>
+			<img class="contact-img" src="images/linkedin.png">
 			<h4>LinkedIn: /travisroy</h4>
+			<img class="contact-img" src="images/github.png">
 			<h4>GitHub: @TrRo26</h4>
+			<img class="contact-img" src="images/website.jpg">
 			<h4>assortedamusement.com</h4>
 		</div>
 	</header>
 
 	<div id="profile">
+		<h3 class="heading">PROFILE</h3>
 		<p>I was not one of those people who grew up knowing what they wanted to do; it took time and effort along with a significant amount of trial and error to come to the conclusion that web development was where I belonged. I love to build and create. I love to look at something tangible and know I was instrumental in its creation. As a recent graduate of a fully immersive programming school, I have obtained a solid foundation in Ruby and JavaScript along with many other tools that have encouraged my further exploration. I’m excited for an opportunity to put these newly obtained skills to use in an environment that fosters growth and continued learning.I was not one of those people who grew up knowing what they wanted to do; it took time and effort along with a significant amount of trial and error to come to the conclusion that web development was where I belonged. I love to build and create. I love to look at something tangible and know I was instrumental in its creation. As a recent graduate of a fully immersive programming school, I have obtained a solid foundation in Ruby and JavaScript along with many other tools that have encouraged my further exploration. I’m excited for an opportunity to put these newly obtained skills to use in an environment that fosters growth and continued learning.</p>
 	</div>
 
 	<div id="experience">
+	<h3 class="heading">EXPERIENCE</h3>
 		<div id="exp-northwestern">
 			<h5>Northwestern Coding Bootcamp / Trilogy Education</h5>
 			<p class="exp-location">Chicago, Illinois</p>
@@ -68,25 +74,100 @@
 			</ul>
 		</div>
 
-		<h5></h5>
+		<div id="exp-rdns">
+			<h5>Royal District Nursing Service</h5>
+			<p class="exp-location">Melbourne, Australia</p>
+			<p class="exp-position">Site Administrator</p>
+			<p class="exp-dates">Nov 2009 to Jun 2010</p>
+			<ul>
+				<li>Oversaw office operations through the management of patient histories and aiding with logistical problems and general questions</li>
+				<li>Resolved patient concerns in a consistently calm, understanding and efficient manner</li>
+			</ul>
+		</div>
 
-		<h5></h5>
+		<div id="exp-basil">
+			<h5>Basil Café</h5>
+			<p class="exp-location">Darwin, Australia</p>
+			<p class="exp-position">Hospitality Manager</p>
+			<p class="exp-dates">Apr 2009 to Sep 2009</p>
+			<ul>
+				<li>Trained all new incoming staff members while continually coaching and mentoring existing staff</li>
+				<li>Oversaw and maintained daily financial tasks along with the reordering of food and beverage supplies</li>
+			</ul>
+		</div>
 	</div>
 
 	<div id="skills">
-		
+		<h3 class="heading">SKILLS</h3>
+		<table border="1">
+			<tr>
+				<th>Languages</th>
+				<th>Frameworks, Libraries, etc.</th>
+			</tr>
+			<tr>
+				<td>Ruby</td>
+				<td>Rails, Sinatra, RSpec</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>React, JQuery, AJAX, Jasmine</td>
+			</tr>
+			<tr>
+				<td>Swift</td>
+				<td>Xcode, Core Motion</td>
+			</tr>
+			<tr>
+				<td>SQL</td>
+				<td>SQLite, PostgreSQL</td>
+			</tr>
+			<tr>
+				<td>HTML/CSS</td>
+				<td>SCSS/Sass</td>
+			</tr>
+		</table>		
 	</div>
 
 	<div id="projects">
-		
+		<h3 class="heading">PROJECTS</h3>
+		<div id="proj-remind">
+			<p class="proj-name">Remind</p>
+			<p class="proj-info">[ 7 days | Team of 4 ]</p>
+			<p class="porj-desc">An iOS app that triggers notifications based on a users proximity to items entered on their custom list.</p>
+			<p class="proj-personal-focus"><em>Personal focus:</em> Foundational knowledge of Swift/Xcode in order to implement Core Motion Framework</p>
+			<p class="porj-tech"><em>Tech:</em> Ruby, Rails, Swift, Xcode, Google Maps API, Heroku</p>
+		</div>
+		<div id="proj-battle">
+			<p class="proj-name">Battleship Clone</p>
+			<p class="proj-info">[ 3 days | Team of 4 ]</p>
+			<p class="porj-desc">A JavaScript remake of the classic board game with added network support.</p>
+			<p class="proj-personal-focus"><em>Personal focus:</em> Foundational knowledge of Swift/Xcode in order to implement Core Motion Framework</p>
+			<p class="porj-tech"><em>Tech:</em> Ruby, Rails, Swift, Xcode, Google Maps API, Heroku</p>
+		</div>
 	</div>
 
 	<div id="education">
-		
+		<h3 class="heading">EDUCATION</h3>
+		<div id="ed-su">
+			<p class="ed-degree">Master of Science - International and Comparative Education</p>
+			<p class="ed-uni">Stockholm University - Stockholm, Sweden</p>
+			<p class="ed-dep">Institute of International Education</p>
+		</div>
+
+		<div id="ed-msu">
+			<p class="ed-degree">Bachelor of Arts - Hospitality Business</p>
+			<p class="ed-uni">Michigan State University – East Lansing, Michigan</p>
+			<p class="ed-dep">Eli Broad College of Business</p>
+		</div>
 	</div>
 
 	<div id="achievements">
-		
+		<h3 class="heading">ACHIEVEMENTS</h3>
+		<ul>
+			<li>Completed ‘Fundamentals of Anthropology’ course at Northwestern University with a GPA of 4.0</li>
+			<li>Earned status of Eagle Scout as a member of the BSA</li>
+			<li>Recurrent member of the Michigan State University Dean's Honors List</li>
+			<li>Organized and participated in numerous volunteer projects, from aiding seniors to environmental conservation</li>
+		</ul>
 	</div>
 
 	<footer></footer>
