@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	border: 1px solid black;
 	margin: auto;
@@ -12,8 +16,10 @@ body {
 	#header-main {
 		border: 1px solid black;
 		width: 55%;
+		height: 120px;
 		float: left;
 		margin-left: 35px;
+		margin-bottom: 35px;
 	}
 
 	#header-name {
@@ -30,9 +36,12 @@ body {
 	#header-contact {
 		border: 1px solid black;
 		width: 35%;
+		height: 120px;
 		float: right;
 		margin-right: 35px;
-		line-height: 0px;
+		margin-bottom: 35px;
+		padding-left: 10px;
+		line-height: 0px
 	}
 
 	.contact-img {
@@ -40,34 +49,38 @@ body {
 		width: 20px;
 	}
 
-
-
-
 #profile, #experience, #skills, #projects, #education, #achievements {
 	border: 1px solid black;
 	margin: 35px;
+	padding: 10px;
 }
 
+/*PROFILE*/
 #profile {
 	clear: both;
 }
 
+/*EXPERIENCE*/
 #experience {
-
+	
 }
 
+/*SKILLS*/
 #skills {
 	
 }
 
+/*PROJECTS*/
 #projects {
 	
 }
 
+/*EDUCATION*/
 #education {
 	
 }
 
+/*ACHIEVEMENTS*/
 #achievements {
 	margin-bottom: 20px;
 }
