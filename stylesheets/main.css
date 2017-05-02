@@ -10,11 +10,15 @@ body {
 
 #profile, #experience, #skills, #projects, #education, #achievements {
 	border: 1px solid black;
-	margin: 15px 35px;
+	margin: 15px 25px;
 	padding: 10px;
 }
 
 .heading {
 	font-size: 18px;
 	padding: 5px;
+}
+
+.hidden {
+	display: none;
 }

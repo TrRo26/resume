@@ -4,32 +4,34 @@ header {
 
 #header-main {
 	border: 1px solid black;
-	width: 55%;
+	width: 57%;
 	height: 120px;
 	float: left;
-	margin-left: 35px;
+	margin-left: 25px;
 	margin-bottom: 15px;
 }
 
 #header-name {
 	text-align: center;
 	margin-top: 10px;
-	color: orange;
+	color: #6d131f;
 	font-size: 60px;
+	letter-spacing: 4px;
 }
 
 #header-info {
 	text-align: center;
 	margin-top: 4px;
 	font-size: 20px;
+	color: #47596d;
 }
 
 #header-contact {
 	border: 1px solid black;
-	width: 35%;
+	width: 36%;
 	height: 120px;
 	float: right;
-	margin-right: 35px;
+	margin-right: 25px;
 	margin-bottom: 15px;
 	padding-left: 15px;
 	padding-top: 4px;
