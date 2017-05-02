@@ -1,0 +1,54 @@
+header {
+	margin-top: 20px;
+}
+
+#header-main {
+	border: 1px solid black;
+	width: 55%;
+	height: 120px;
+	float: left;
+	margin-left: 35px;
+	margin-bottom: 35px;
+}
+
+#header-name {
+	text-align: center;
+	margin-top: 10px;
+	color: orange;
+	font-size: 60px;
+}
+
+#header-info {
+	text-align: center;
+	margin-top: 3px;
+	font-size: 20px;
+}
+
+#header-contact {
+	border: 1px solid black;
+	width: 35%;
+	height: 120px;
+	float: right;
+	margin-right: 35px;
+	margin-bottom: 35px;
+	padding-left: 10px;
+	padding-top: 3px;
+	line-height: 0px;
+}
+
+.contact-img {
+	height: 20px;
+	width: 20px;
+}
+
+.contact-info {
+	position: relative;
+	bottom: 5px;
+	line-height: 16px;
+}
+
+#profile, #experience, #skills, #projects, #education, #achievements {
+	border: 1px solid black;
+	margin: 35px;
+	padding: 10px;
+}
