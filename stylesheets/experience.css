@@ -1,0 +1,34 @@
+#experience {
+	
+}
+
+.exp {
+	border: 1px dashed black;
+	padding: 10px;
+}
+
+#experience h5 {
+	display: inline-block;
+	margin-top: 0px;
+	line-height: 0px;
+	font-size: 18px;
+}
+
+.exp-location {
+	display: inline-block;
+}
+
+.exp-position {
+	display: inline-block;
+	margin-top: 0px;
+	color: blue;
+	font-weight: bold;
+}
+
+.exp-dates {
+	display: inline-block;
+}
+
+.exp ul {
+	margin-top: 0px;
+}
