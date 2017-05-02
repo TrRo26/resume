@@ -7,3 +7,14 @@ body {
 	margin: auto;
 	width: 960px;
 }
+
+#profile, #experience, #skills, #projects, #education, #achievements {
+	border: 1px solid black;
+	margin: 15px 35px;
+	padding: 10px;
+}
+
+.heading {
+	font-size: 18px;
+	padding: 5px;
+}
