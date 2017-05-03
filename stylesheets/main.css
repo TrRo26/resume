@@ -2,9 +2,14 @@
 	box-sizing: border-box;
 }
 
+html {
+	background: white;
+}
+
 body {
 	border: 1px solid black;
-	margin: auto;
+	background: #768ca0;
+	margin: 20px auto;
 	width: 960px;
 }
 
@@ -12,6 +17,7 @@ body {
 	border: 1px solid black;
 	margin: 15px 25px;
 	padding: 10px;
+	background: #e1e1e1;
 }
 
 .heading {
