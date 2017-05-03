@@ -8,16 +8,17 @@ html {
 
 body {
 	border: 1px solid black;
-	background: #768ca0;
+	background: #b0c4de;
 	margin: 20px auto;
 	width: 960px;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 #profile, #experience, #skills, #projects, #education, #achievements {
 	border: 1px solid black;
 	margin: 15px 25px;
 	padding: 10px;
-	background: #e1e1e1;
+	background: #fffaf0;
 }
 
 .heading {
