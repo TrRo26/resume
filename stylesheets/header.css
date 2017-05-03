@@ -2,13 +2,14 @@ header {
 	margin-top: 20px;
 }
 
-#header-main {
+#header-container-name {
 	border: 1px solid black;
 	width: 57%;
 	height: 120px;
 	float: left;
 	margin-left: 25px;
 	margin-bottom: 15px;
+	background: #fffaf0;
 }
 
 #header-name {
@@ -16,17 +17,20 @@ header {
 	margin-top: 10px;
 	color: #6d131f;
 	font-size: 60px;
+	font-weight: bold;
 	letter-spacing: 4px;
 }
 
-#header-info {
+
+#header-name-sub {
 	text-align: center;
-	margin-top: 4px;
+	margin-top: 7px;
 	font-size: 20px;
+	font-weight: bold;
 	color: #47596d;
 }
 
-#header-contact {
+#header-container-info {
 	border: 1px solid black;
 	width: 36%;
 	height: 120px;
@@ -37,6 +41,7 @@ header {
 	padding-top: 4px;
 	line-height: 0px;
 	letter-spacing: 2px;
+	background: #fffaf0;
 }
 
 .contact-img {
