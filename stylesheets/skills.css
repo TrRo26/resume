@@ -1,3 +1,58 @@
 #skills {
 	
 }
+
+.skill-container {
+	width: 100%;
+	border: 1px solid black;
+	margin-bottom: 4px;
+}
+
+.skill {
+	text-align: left;
+	padding-right: 20px;
+	line-height: 25px;
+	padding-left: 15px;
+}
+
+.ruby {
+	width: 40%; 
+	background: #cc5500;
+	background: -webkit-linear-gradient(left, #cc5500, #fffaf0);
+}
+
+.js {
+	width: 30%; 
+	background: #cc5500;
+	background: -webkit-linear-gradient(left, #cc5500, #fffaf0);
+}
+
+.swift {
+	width: 10%; 
+	background: #cc5500;
+	background: -webkit-linear-gradient(left, #cc5500, #fffaf0);
+}
+
+.html {
+	width: 40%;
+	background: #B22222;
+	background: -webkit-linear-gradient(left, #B22222, #fffaf0);
+}
+
+.sql {
+	width: 30%;
+	background: #B22222;
+	background: -webkit-linear-gradient(left, #B22222, #fffaf0);
+}
+
+.react { 
+	width: 20%;
+	background: #4C7599;
+	background: -webkit-linear-gradient(left, #4C7599, #fffaf0);
+}
+
+.jquery {
+	width: 35%;
+	background: #4C7599;
+	background: -webkit-linear-gradient(left, #4C7599, #fffaf0);
+}
