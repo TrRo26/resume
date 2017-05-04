@@ -1,3 +1,7 @@
 #profile {
 	clear: both;
 }
+
+.profile-content {
+	line-height: 20px;
+}
