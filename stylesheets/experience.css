@@ -1,6 +1,12 @@
+#experience {
+
+}
+
 .exp {
-	border: 1px dashed black;
+	position: relative;
 	padding: 10px;
+	margin-bottom: 15px;
+	line-height: 20px;
 }
 
 #experience h5 {
@@ -11,26 +17,48 @@
 }
 
 .company-name {
-	font-weight: bold;
-	font-family: georgia;
-	color: #6d131f;
+	display: inline-block;
+	position: relative;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-variant: small-caps;
+	margin-bottom: 15px;
 }
 
 .exp-location {
 	display: inline-block;
+	position: absolute;
+	right: 15px;
 }
 
 .exp-position {
 	display: inline-block;
 	margin-top: 0px;
-	color: blue;
+	color: #6d131f;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 .exp-dates {
 	display: inline-block;
+	position: absolute;
+	right: 15px;
 }
 
 .exp ul {
 	margin-top: 0px;
+}
+
+.exp-image-container {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	background: white;
+	float: left;
+	margin-right: 15px;
+	/*margin-bottom: 15px;*/
+}
+
+.exp-image {
+	max-height: 100%;
+	max-width: 100%;
 }

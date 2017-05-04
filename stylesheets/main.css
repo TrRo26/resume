@@ -17,13 +17,14 @@ body {
 #profile, #experience, #skills, #projects, #education, #achievements {
 	border: 1px solid black;
 	margin: 15px 25px;
-	padding: 10px;
+	padding: 15px;
 	background: #fffaf0;
 }
 
 .heading {
 	font-size: 18px;
-	padding: 5px;
+	letter-spacing: 3px;
+	padding-bottom: 15px;
 }
 
 .hidden {
